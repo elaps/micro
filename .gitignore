@@ -6,6 +6,8 @@
 
 vendor/
 
+composer.lock
+
 # PHPStorm
 .idea
 .idea/**/workspace.xml

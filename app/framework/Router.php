@@ -71,8 +71,6 @@ class Router {
 
     public function findRouteByMethod($string, $method = 'any') {
         $params = [];
-        
-
         foreach ($this->routes[$method] as $uri => $route) {
             if (str_contains($uri, '{')) {
                 $regexp = preg_match_all('/{:(.+?)}/', $uri, $matches);
