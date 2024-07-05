@@ -1,0 +1,15 @@
+{
+  "name": "elaps/microweb",
+  "description": "microweb framework",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Elaps",
+      "email": "elaps@bk.ru"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}
